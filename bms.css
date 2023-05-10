@@ -1,0 +1,133 @@
+*{
+    margin: 0%;
+    padding:0%;
+
+}
+.fnav{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    height: 60px;
+    background-color: rgb(42,42,68);
+    
+}
+
+.fnav .left{
+    display: flex;
+    align-items: center;
+}
+.left input{
+    margin-inline: 11px;
+    width: 400px;
+    height:33px;
+    border: none;
+    outline: none;
+}
+.fnav .right{
+display: flex; 
+align-items: center;
+}
+.left .search{
+    background-color: white;
+}
+.right p{
+    margin-inline: 22px;
+    font-size: 22px;
+}
+.right button{
+   
+    width: 80px;
+    height: 27px;
+    border: none;
+    border-radius: 2px;
+   
+}
+.right i{
+    margin-inline: 22px;
+}
+.sec-nav{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    height: 50px;
+    background-color: rgb(6, 6, 36);
+    align-items: center;
+}
+.sec-nav .s-left{
+    display: flex;
+    justify-content: space-around;
+}
+.s-left p{
+    margin-inline-start: 18px;
+}
+.sec-nav .s-right{
+    display: flex;
+    justify-content: space-around;
+}
+.s-right p{
+    margin-inline-start: 18px;
+}
+.sec-nav p:hover{
+    color: red;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+.main img{
+    width: 100%;
+}
+.container h2{
+    text-align: center;
+    padding: 22px;
+}
+.container .card{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 11px;
+}
+.card img{
+    width:17%;
+    margin-block: 15px;
+    border-radius: 5px;
+}
+.banner img{
+    width: 100%;
+    margin-top: 44px;
+}
+.premiere{
+    background-color: rgb(47, 47, 71);
+    color: white;
+    padding: 33px;
+    margin-top: 44px;
+}
+.premiere .card2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 11px;
+}
+.card2 img{
+    width:22%;
+    margin-block: 15px;
+    border-radius: 5px;
+}
+.footer{
+    background-color: rgb(42,42,68);
+    padding: 33px;
+    margin-top: 44px;
+}
+.footer img{
+    width: 22%;
+    margin-left: 36%;
+}
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.icon i{
+    
+    font-size: 38px;
+    
+}
